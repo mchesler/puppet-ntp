@@ -1,0 +1,8 @@
+name    'puppet-ntp'
+version '0.0.1'
+source 'http://github.com/mchesler/puppet-ntp'
+author 'Matt Chesler'
+license 'Apache License Version 2.0'
+summary 'Puppet NTP management module'
+description 'This module can be used for basic NTP Management'
+project_page 'http://github.com/mchesler/puppet-ntp'
