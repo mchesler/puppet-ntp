@@ -76,7 +76,7 @@ class ntp ($servers = undef, $enable = true, $ensure = running) {
     name      => $service_name,
     ensure    => $ensure,
     enable    => $enable,
-    subscribe => File['ntp.conf'],
+    subscribe => File['/etc/ntp.conf'],
   }
 }
 
